@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Web Components Home</title>
+		<link rel="stylesheet" href="style.css">
+    	<!--<script type="module" src="../my-element.js"></script>-->
+    	<script type="module" src="web-components.bundled.js"></script>
+  	</head>
+  	<body>
+    	<!--<my-element>
+      		<p>This is child content</p>
+    	</my-element>-->
+
+    	<header>
+      		<h1>Web Components</h1>
+      		<br>
+      		<h1>&lt;simple-button&gt;</h1>
+      		<h2>So simple and so useful</h2>
+    	</header>
+
+    	<nav class="main-nav">
+      		<a href="#">Home</a>
+      		<a href="./pages/simple-button/simple-button-example.html">Examples</a>
+      		<a href="./pages/simple-button/simple-button-api.html">API</a>
+      		<a href="./pages/simple-button/simple-button-install.html">Install</a>
+    	</nav>
+
+    	<main class="main-wrapper">
+      		<aside>
+        		<h3>Components</h3>
+        		<nav class="mainpage">
+          			<a href="#">Simple-button</a>
+          			<a href="#">Simple-input</a>
+          			<a href="#">Simple-list</a>
+        		</nav>
+      		</aside>
+
+      		<section class="section-wrapper">
+        		<h3>Some Simple Buttons</h3>
+        		<p>This are some simple primary buttons with hover and onclick</p>
+        		<simple-button backgroundColor="#FF0000" bordercolor="#FF0000" hoverBackgroundColor="#cc0000" hoverBorderColor="#cc0000" linkLocation="#"></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">backgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBackgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#cc0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBorderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#cc0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">linkLocation</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#<span class="code-punctuation">"</span></span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+
+				<simple-button backgroundColor="#00BFFF" bordercolor="#00BFFF" hoverBackgroundColor="#0000FF" hoverBorderColor="#0000FF" linkLocation="#"></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">backgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#00BFFF<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#00BFFF<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBackgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#0000FF<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBorderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#0000FF<span class="code-punctuation">"</span></span> <span class="code-attr-name">linkLocation</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#<span class="code-punctuation">"</span></span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+				<br>
+
+        		<p>This are some disabled simple primary buttons </p>
+				<simple-button backgroundColor="#FF6666" borderColor="#FF6666" textColor="#f2f2f2" disabled></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">backgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF6666<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF6666<span class="code-punctuation">"</span></span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#f2f2f2<span class="code-punctuation">"</span></span> <span class="code-attr-name">disabled</span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+
+        		<simple-button backgroundColor="#87CEFA" borderColor="#87CEFA" textColor="#f2f2f2" disabled></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">backgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#87CEFA<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#87CEFA<span class="code-punctuation">"</span></span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#f2f2f2<span class="code-punctuation">"</span></span> <span class="code-attr-name">disabled</span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+				<br>
+
+        		<p>This are some simple secondary buttons with hover and onclick</p>
+				<simple-button textColor="#FF0000" bordercolor="#FF0000" hoverBackgroundColor="#CC0000" hoverBorderColor="#CC0000" linkLocation="#"></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBackgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#CC0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBorderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#CC0000<span class="code-punctuation">"</span></span> <span class="code-attr-name">linkLocation</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#<span class="code-punctuation">"</span></span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+
+				<simple-button textColor="#00BFFF" bordercolor="#00BFFF" hoverBackgroundColor="#0000FF" hoverBorderColor="#0000FF" linkLocation="#"></simple-button>
+				<pre class="main-page-language-html-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#00BFFF<span class="code-punctuation">"</span></span> <span class="code-attr-name">bordercolor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#00BFFF<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBackgroundColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#0000FF<span class="code-punctuation">"</span></span> <span class="code-attr-name">hoverBorderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#0000FF<span class="code-punctuation">"</span></span> <span class="code-attr-name">linkLocation</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#<span class="code-punctuation">"</span></span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+				<br>
+
+        		<p>This are some disabled simple secondary buttons </p>
+				<simple-button borderColor="#FF6666" textColor="#FF6666" disabled></simple-button>
+				<pre class="main-page-language-html-no-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">borderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF6666<span class="code-punctuation">"</span></span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#FF6666<span class="code-punctuation">"</span></span> <span class="code-attr-name">disabled</span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+
+				<simple-button borderColor="#87CEFA" textColor="#87CEFA" disabled></simple-button>
+				<pre class="main-page-language-html-no-overflow">
+					<div class="main-page-language-html">
+              			<code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>simple-button</span> <span class="code-attr-name">borderColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#87CEFA<span class="code-punctuation">"</span></span> <span class="code-attr-name">textColor</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>#87CEFA<span class="code-punctuation">"</span></span> <span class="code-attr-name">disabled</span> <span class="code-punctuation">&gt;</span></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>simple-button</span><span class="code-punctuation">&gt;</span></span></code>
+					</div>
+				</pre>
+			</section>
+    	</main>
+    	<footer></footer>
+  	</body>
+</html>

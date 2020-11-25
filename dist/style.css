@@ -1,0 +1,236 @@
+    body {
+        box-sizing: border-box;
+        color: #333;
+        font-family: 'Open Sans', arial, sans-serif;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        font-weight: 300;
+        margin: 64px 0 12px;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 360px;
+        margin: 0;
+        background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+        color: white;  
+    }
+
+    header h1 {
+        width: auto;
+        font-size: 2.8em;
+        margin: 0;
+    }
+
+    header h2 {
+        width: auto;
+        margin: 0;
+    }
+
+    nav.main-nav {
+        display: grid;
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: repeat(auto-fit, 240px);
+        justify-content: center;
+        border-bottom: 1px solid #efefef;
+    }
+
+    nav.main-nav a {
+        color: #444;
+        display: block;
+        flex: 1;
+        font-size: 18px;
+        padding: 20px 0;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    nav.main-nav a:hover {
+        text-decoration: underline;
+    }
+
+    nav.mainpage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.exemplepage {
+        text-decoration: none;
+        padding: 4px 0;
+    }
+
+    main.main-wrapper {
+        display:flex
+    }
+
+    main.example-main-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    aside.example-aside-wrapper {
+        padding: 20px;
+    }
+
+    section.section-wrapper {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section.example-section-wrapper {
+        padding: 20px;
+    }
+
+    .table-container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    }
+
+    .table-item {
+        flex-grow: 1;
+        width: 10%;
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+    .table-item-size-medium {
+        width: 12%;    
+    }
+
+    .table-item-size-large {
+        width: 30%;    
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .padding-left {
+        padding-left: 25px;   
+    }
+
+    .language-css {
+        background-color: black;
+        color: white;
+        padding: 16px;
+        margin: 8px 0;
+        border-radius: 5px;
+        line-height: 23px;        
+    }
+
+    .code-selector {
+        color: #a6e22e;
+    }
+
+    .code-punctuation {
+        color: #f8f8f2;
+    }
+
+    .code-property {
+        color:#f92672;
+    }
+
+    .code-property-value {
+        color:#ee8323;
+    }
+
+    .code-property-number-value {
+        color: #e6ff99;
+    }
+
+    .code-attr-name {
+        color: #a6e22e;    
+    }
+
+    .code-attr-value {
+        color: #e6db74;
+    }
+
+    .language-html {
+        background-color: black;
+        color: white;
+        padding: 16px;
+        margin: 8px 0;
+        border-radius: 5px;
+        line-height: 23px;        
+    }
+
+    .main-page-language-html-overflow {
+        overflow-y: hidden;
+        height: 77px;
+        background-color: black;
+        border-radius: 5px;       
+    }
+
+    .main-page-language-html-no-overflow {
+        overflow: hidden;
+        height: 60px;
+        width: 82%;
+        background-color: black;
+        border-radius: 5px;       
+    }
+
+    .main-page-language-html {
+        background-color: black;
+        color: white;
+        margin: -4px -324px;
+        border-radius: 5px;
+        line-height: 0px;
+    }
+
+    .code-tag {
+        color: #f92672;
+    }
+
+    .language-bash {
+        background-color: black;
+        color: white;
+        padding: 16px;
+        margin: 8px 0;
+        border-radius: 5px;
+        line-height: 23px;        
+    }
+
+    .code-function {
+        color: #e6db74;
+    }
+
+    @media screen and (min-width: 480px) {
+        .table-item-size-medium {
+            width: 13%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .table-item-size-medium {
+            width: 14%;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .table-item-size-medium {
+            width: 15%;
+        }
+    }
+
+    @media screen and (min-width: 1025px) {
+        .table-item-size-medium {
+            width: 20%;
+        }
+      }

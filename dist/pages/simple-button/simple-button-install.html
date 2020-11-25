@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>&lt;Simple-button> Exemple</title>
+		<link rel="stylesheet" href="../../style.css">
+    	<script type="module" src="../../web-components.bundled.js"></script>
+  	</head>
+  	<body>
+    	<header>
+      		<h1>Component Library</h1>
+      		<br>
+      		<h1>&lt;simple-button&gt;</h1>
+      		<h2>So simple and so useful</h2>
+    	</header>
+    	<nav class="main-nav">
+      		<a href="../../index.html">Home</a>
+      		<a href="simple-button-example.html">Examples</a>
+      		<a href="simple-button-api.html">API</a>
+      		<a href="#">Install</a>
+        </nav>
+        <section class="section-wrapper">
+            <h1>Install</h1>
+            <p><code>&lt;simple-button&gt;</code> is distributed on npm, so you can install it locally or use it via npm CDNs like unpkg.com.</p>
+            <h2>Local Installation</h2>
+            <pre class="language-bash"><code class="language-bash"><span class="code-function">npm</span> i simple-button</code></pre>
+            <h2>CDN</h2>
+            <p>npm CDNs like <a href="">unpkg.com</a> can directly serve files that have been published to npm. This works great for standard JavaScript modules that the browser can load natively.</p>
+            <p>For this element to work from unpkg.com specifically, you need to include the <code>?module</code> query parameter, which tells unpkg.com to rewrite &quot;bare&quot; module specificers to full URLs.</p>
+            <h3>HTML</h3>
+            <pre class="language-html"><code class="language-html"><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;</span>script</span> <span class="code-attr-name">type</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>module<span class="code-punctuation">"</span></span> <span class="code-attr-name">src</span><span class="code-attr-value"><span class="code-punctuation">=</span><span class="code-punctuation">"</span>https://unpkg.com/simple-button?module<span class="code-punctuation">"</span></span><span class="code-punctuation">></span></span><span class="code-script"></span><span class="code-tag"><span class="code-tag"><span class="code-punctuation">&lt;/</span>script</span><span class="code-punctuation">></span></span></code></pre>
+            <h3>JavaScript</h3>
+            <pre class="language-html"><code class="language-html">import {SimpleButton} from 'https://unpkg.com/simple-button?module';</code></pre>
+        </section>
+        <footer></footer>
+    </body>
+</html>
